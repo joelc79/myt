@@ -16,6 +16,10 @@
   margin-bottom:0;
 }
 
+.header img{
+  border-right: thin solid mediumaquamarine;
+}
+
 .logo {
   display: inline-flex;
   align-items: flex-start;
@@ -33,4 +37,25 @@
   font-size: 14px;
   font-weight: bold;
   color: black;
+}
+
+.column{
+  display:flex;
+  justify-content: space-between;
+}
+
+.column.large{
+  width:630px;
+}
+
+.column.medium{
+  width:300px;
+}
+
+.column.small{
+  width:240px;
+}
+
+div{
+  border: solid thin black;
 }
